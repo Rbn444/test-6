@@ -1,0 +1,55 @@
+body {
+    background: rgb(167,167,167);
+    background: radial-gradient(circle, rgba(167,167,167,1) 0%, rgba(129,129,129,1) 43%, rgba(0,0,0,1) 100%);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.cardContainer {
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    border-radius:10%;
+    margin: 1em 0;
+    box-shadow: 5px 5px black
+}
+.cardContainer a {
+    color: aqua;
+    font-size: 1.5em;
+}
+
+.cardPhoto {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+}
+.cardGenderM {
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+.cardGenderF {
+    font-size: 1.5rem;
+    margin-top: 1em;
+    
+}
+
+.cardGenderM ion-icon {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.cardGenderF ion-icon {
+    border: 2px  solid rgb(250, 3, 188);
+    background-color: pink;
+    padding: 5px;
+    border-radius: 50%;
+    color: black;
+}
